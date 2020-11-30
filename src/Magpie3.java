@@ -139,4 +139,12 @@ public class Magpie3 {
 		return response;
 	}
 
+	public static void main(String[] args)
+       {
+             Magpie3 maggie = new Magpie3();
+
+             maggie.findKeyword("yesterday is today's day before.", "day", 0);
+
+       }
+
 }
